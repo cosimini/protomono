@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.3212424"
-     inkscape:cx="359.13168"
-     inkscape:cy="944.18707"
+     inkscape:zoom="1.5093005"
+     inkscape:cx="428.6754"
+     inkscape:cy="366.72617"
      inkscape:window-width="1904"
      inkscape:window-height="1044"
      inkscape:window-x="0"
@@ -2514,5 +2514,18 @@
        height="65.000008"
        x="27.999998"
        y="214.99998" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.793999;stroke-linecap:round;stroke-linejoin:round"
+       x="40"
+       y="10"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.794"></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458333;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.26458332,0.79374996;stroke-dashoffset:0"
+       d="M 55,216.99999 H 160"
+       id="path9" />
   </g>
 </svg>
