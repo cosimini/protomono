@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "protomono_pcb.kicad_pro",
+    "filename": "protomonopcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -610,7 +610,7 @@
   },
   "sheets": [
     [
-      "f88b3f60-0508-4d00-99c2-d4e0ef566757",
+      "abe26a93-fb82-4ca8-a447-9202638c0a04",
       "Root"
     ]
   ],
