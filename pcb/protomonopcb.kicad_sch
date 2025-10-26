@@ -13,189 +13,6 @@
 		(comment 2 "And I'll add a plate too!")
 	)
 	(lib_symbols
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1488,6 +1305,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02"
 			(pin_numbers
 				(hide yes)
@@ -1846,16 +1746,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 190.5) (xy 279.4 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb8d3d4-76c0-4e5c-bf49-d71211f537d5")
-	)
-	(wire
-		(pts
 			(xy 232.41 224.79) (xy 234.95 224.79)
 		)
 		(stroke
@@ -1883,36 +1773,6 @@
 			(type default)
 		)
 		(uuid "46daa9c6-7bea-487e-84ad-46165ba5df2e")
-	)
-	(wire
-		(pts
-			(xy 304.8 219.71) (xy 304.8 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50fa21ca-8a08-4ae3-9fb3-c351ee57e28c")
-	)
-	(wire
-		(pts
-			(xy 304.8 207.01) (xy 304.8 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523aaa67-724a-4956-8a11-e275d4196a05")
-	)
-	(wire
-		(pts
-			(xy 292.1 207.01) (xy 292.1 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5313dd14-c8ff-4d04-99a5-45028cbca510")
 	)
 	(wire
 		(pts
@@ -1946,16 +1806,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 207.01) (xy 317.5 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968bfc5f-65ca-484b-a29f-25c982dc1880")
-	)
-	(wire
-		(pts
 			(xy 232.41 217.17) (xy 234.95 217.17)
 		)
 		(stroke
@@ -1963,26 +1813,6 @@
 			(type default)
 		)
 		(uuid "99bf1a7c-390d-4694-8e3c-be8b35ef3147")
-	)
-	(wire
-		(pts
-			(xy 279.4 219.71) (xy 279.4 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca3cc35-736d-43c2-b6ab-c29fc6e1008d")
-	)
-	(wire
-		(pts
-			(xy 292.1 219.71) (xy 292.1 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dcc08b5-96db-498d-9da8-8ae526ab925b")
 	)
 	(wire
 		(pts
@@ -2016,16 +1846,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 190.5) (xy 304.8 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae617ac4-e47c-49b8-8f3a-33dffa6ff60c")
-	)
-	(wire
-		(pts
 			(xy 184.15 247.65) (xy 186.69 247.65)
 		)
 		(stroke
@@ -2033,16 +1853,6 @@
 			(type default)
 		)
 		(uuid "b0e60d6d-828e-425f-b9f7-b3969b507111")
-	)
-	(wire
-		(pts
-			(xy 317.5 190.5) (xy 317.5 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4d1d8e-86d1-4887-b251-3f8f4132abb6")
 	)
 	(wire
 		(pts
@@ -2066,16 +1876,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 219.71) (xy 317.5 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc139a5b-567d-4d85-ad51-0cd1e7d07fa3")
-	)
-	(wire
-		(pts
 			(xy 173.99 232.41) (xy 176.53 232.41)
 		)
 		(stroke
@@ -2096,16 +1896,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 190.5) (xy 292.1 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82c739e-864d-4bad-ac93-1497392d3768")
-	)
-	(wire
-		(pts
 			(xy 184.15 229.87) (xy 186.69 229.87)
 		)
 		(stroke
@@ -2123,16 +1913,6 @@
 			(type default)
 		)
 		(uuid "ebcdad72-75e8-4462-9110-12e38014f0b3")
-	)
-	(wire
-		(pts
-			(xy 279.4 207.01) (xy 279.4 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a6221e-cebf-4281-b736-9eadfac79a06")
 	)
 	(wire
 		(pts
@@ -3002,50 +2782,6 @@
 			)
 		)
 	)
-	(global_label "LED_3"
-		(shape input)
-		(at 317.5 190.5 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a23a74d-88a1-47c7-b396-d37b9e9dac54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 181.8906 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_0"
-		(shape input)
-		(at 279.4 190.5 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b5abcf7-4f1b-47ef-a22f-bfcdfd816844")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 181.8906 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "c8"
 		(shape input)
 		(at 304.8 114.3 180)
@@ -3218,28 +2954,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_1"
-		(shape input)
-		(at 292.1 190.5 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5920625d-3244-413b-b5d3-196c555b3bea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1 181.8906 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3552,50 +3266,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 317.5 228.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e43743b-d192-4985-85b8-2167f3bd14d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.5 235.4557 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_2"
-		(shape input)
-		(at 304.8 190.5 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f125961-d709-4c03-8869-cf16e574a7cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 181.8906 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "r3"
 		(shape input)
 		(at 360.68 152.4 270)
@@ -3794,28 +3464,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 279.4 228.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a2bf4ca-4f8e-42cd-b2c7-917ceee95bea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 235.4557 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ci"
 		(shape input)
 		(at 177.8 88.9 180)
@@ -3829,28 +3477,6 @@
 		(uuid "9a60bbc0-5e43-4c4c-8db9-1cd9356dd04a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.1214 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 304.8 228.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9bc9b769-b5c3-49d8-878f-542626bda729")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 235.4557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,28 +3697,6 @@
 		(uuid "a5fa7a5b-1648-41f7-a414-ca6fe14d3d57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 81.1809 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 292.1 228.6 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abd3ded7-94b9-4c38-b109-df4140879979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1 235.4557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,76 +4795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 317.5 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04ef1255-d3bf-4db4-8bfa-ee9c896f3113")
-		(property "Reference" "R8"
-			(at 320.04 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 320.04 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 315.722 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 317.5 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e086cbca-e4a7-41db-bc66-15ae7b2f0c19")
-		)
-		(pin "2"
-			(uuid "b166bac0-898a-45ad-8322-8e87a03ea6d1")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAT85")
 		(at 81.28 148.59 270)
 		(unit 1)
@@ -5541,85 +5075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 317.5 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc7b2ae-48e4-483a-ae35-bb89e34ab1e8")
-		(property "Reference" "D52"
-			(at 321.31 216.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 321.31 218.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 317.5 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 317.5 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 317.5 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94e58330-d86e-45aa-9ad4-d762e148b7fe")
-		)
-		(pin "1"
-			(uuid "742b624e-c889-46c7-834f-abe48dd30a8a")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "D52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
 		(at 154.94 116.84 0)
 		(unit 1)
@@ -5826,6 +5281,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c6b5f3-1440-47dd-8af8-26965b677948")
+		(property "Reference" "H5"
+			(at 91.44 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
 		(at 78.74 66.04 0)
 		(unit 1)
@@ -6024,76 +5543,6 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "CH35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 304.8 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a7b4557-f3b5-4d0b-a9ef-391159a3d42b")
-		(property "Reference" "R7"
-			(at 307.34 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 307.34 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 303.022 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 304.8 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f2df19b-304c-4b2f-b5b0-aa330b6f4aad")
-		)
-		(pin "2"
-			(uuid "ec6340d2-dfb2-4dff-96d9-e000619a081e")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6578,85 +6027,6 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 279.4 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce59055-282b-4c68-b59f-92e3561ef0d7")
-		(property "Reference" "D25"
-			(at 283.21 216.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 283.21 218.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 279.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 279.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 279.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa76a736-4b63-4e6f-bd4a-8da665df1539")
-		)
-		(pin "1"
-			(uuid "4f31d342-cb8f-4197-b606-438cb4674a01")
-		)
-		(instances
-			(project ""
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -7213,76 +6583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 292.1 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56f42c88-debe-4b44-9f76-bd5b2e1d5396")
-		(property "Reference" "R6"
-			(at 294.64 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 294.64 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 290.322 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 292.1 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b50bd406-266f-414c-a92d-304f506f6468")
-		)
-		(pin "2"
-			(uuid "d3cfc00f-74a2-4fa2-a93a-24525fac0332")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
 		(at 129.54 116.84 0)
 		(unit 1)
@@ -7415,6 +6715,70 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1be0a7-14ee-4b3e-b36a-67b95ce0ecb4")
+		(property "Reference" "H10"
+			(at 91.44 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -7561,17 +6925,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 279.4 203.2 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "631c8e6b-ccf6-4725-9e83-4e7ccd177d4a")
-		(property "Reference" "R5"
-			(at 281.94 201.9299 0)
+		(uuid "62402589-19e3-4b7e-81ce-b6b3d8252f5f")
+		(property "Reference" "H8"
+			(at 91.44 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,8 +6943,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 281.94 204.4699 0)
+		(property "Value" "MountingHole"
+			(at 91.44 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,8 +6952,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 277.622 203.2 90)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +6962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 203.2 0)
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,25 +6970,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 279.4 203.2 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "3aecf9c4-014b-4bd7-b1dc-ab5d7eb673a5")
-		)
-		(pin "2"
-			(uuid "d047272f-49fe-466c-b01a-beb1d514d1a4")
 		)
 		(instances
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "R5")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -7765,6 +7123,70 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67387739-e0d9-4a91-b888-99cad2d8bb1c")
+		(property "Reference" "H3"
+			(at 66.04 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8181,6 +7603,70 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc72edf-bd06-47bd-84f3-d51c1ee2fc64")
+		(property "Reference" "H2"
+			(at 66.04 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8945,6 +8431,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f7c55e-1bc0-4b9f-8bf9-bf058e693d4d")
+		(property "Reference" "H7"
+			(at 91.44 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT85")
 		(at 259.08 148.59 270)
 		(unit 1)
@@ -9349,6 +8899,134 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "CH32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93fb97fd-d9f6-43d7-8a5e-3bb44dd33325")
+		(property "Reference" "H4"
+			(at 66.04 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9509c096-38e9-47f0-80a5-312af0c0c448")
+		(property "Reference" "H9"
+			(at 66.04 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -9899,6 +9577,70 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "CH18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3dd7458-dcdf-4543-8f62-9cab7d5cf8f5")
+		(property "Reference" "H11"
+			(at 66.04 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -10629,85 +10371,6 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "CH37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 304.8 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6b7679a-50f0-4a71-8992-4a52cfd7bcf7")
-		(property "Reference" "D51"
-			(at 308.61 216.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 308.61 218.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 304.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 304.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 304.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c2d6bea-c141-4482-971e-411d6c26ec76")
-		)
-		(pin "1"
-			(uuid "4f93b718-7dda-4603-a385-c272873c5fd5")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -11956,6 +11619,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df10013b-c21d-478d-8e87-787cbe770d24")
+		(property "Reference" "H1"
+			(at 66.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 66.04 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT85")
 		(at 335.28 148.59 270)
 		(unit 1)
@@ -12234,85 +11961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 292.1 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3c3061f-cb94-431e-9824-9aeefa2af574")
-		(property "Reference" "D36"
-			(at 295.91 216.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 295.91 218.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 292.1 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 292.1 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 292.1 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb8f6b04-0b2e-4ddf-95d3-98546e9f40de")
-		)
-		(pin "1"
-			(uuid "b6f43b34-578d-4039-8382-e6f4ce468806")
-		)
-		(instances
-			(project "protomonopcb"
-				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
-					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAT85")
 		(at 284.48 123.19 270)
 		(unit 1)
@@ -12513,6 +12161,70 @@
 			(project "protomonopcb"
 				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
 					(reference "CH10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa882569-151f-4c6f-82d8-32590f00967a")
+		(property "Reference" "H6"
+			(at 91.44 201.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 91.44 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "protomonopcb"
+				(path "/abe26a93-fb82-4ca8-a447-9202638c0a04"
+					(reference "H6")
 					(unit 1)
 				)
 			)

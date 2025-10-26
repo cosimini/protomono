@@ -1,4 +1,4 @@
-26654574672992380
+26658101768308810
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74346,6 +74346,13 @@ Hotswap footprint for Gateron KS33 switches
 0
 6
 2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_HS_KS-2P02B01-02_HS_1u_1
+Hotswap footprint for Gateron KS33 switches
+
+0
+6
+2
 PCM_marbastlib-xp-hitek
 SW_HiTek_Mount_1.5u
 Footprint for Hi-Tek Series 725 ("Space Invader") Switches
@@ -106657,6 +106664,13 @@ Hotswap footprint for Gateron KS33 switches
 
 0
 6
+2
+packed_switches_library
+SW_KS33_hole
+Hotswap footprint for Gateron KS33 switches
+
+0
+7
 2
 pico_without_keepout_area
 RaspberryPi_Pico_Common_Unspecified
